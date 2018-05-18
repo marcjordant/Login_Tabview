@@ -1,0 +1,21 @@
+### Angular ###
+## Angular ##
+# compiled output
+/dist
+/tmp
+/app/**/*.js
+/app/**/*.js.map
+
+# dependencies
+/node_modules
+
+#System Files
+.DS_Store
+
+### NativeScript ###
+/platforms
+/debugger
+
+**/*.log
+
+# End of https://www.gitignore.io/api/angular,intellij,nativescript

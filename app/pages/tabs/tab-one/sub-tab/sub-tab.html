@@ -1,0 +1,8 @@
+<ActionBar title="SubTab"></ActionBar>
+
+<StackLayout>
+    <Label text="SubTab content"></Label>
+    <Button text="Show login (method call)" (tap)="showLogin()"></Button>
+    <Button text="Show login (nsRouterLink)" [nsRouterLink]="['/login']" clearHistory="true" pageTransition="none"></Button>
+
+</StackLayout>

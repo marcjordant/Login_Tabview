@@ -1,0 +1,8 @@
+<ActionBar title="Tab 1"></ActionBar>
+
+<StackLayout>
+    <Label text="Tab 1 content"></Label>
+    <Button text="Go to sub-tab (method call)" (tap)="goToSubTab()"></Button>
+    <Button text="Go to sub-tab (nsRouterLink)" [nsRouterLink]="['/tabs', { outlets: { firstTab: ['sub-tab'] } } ]"></Button>
+
+</StackLayout>

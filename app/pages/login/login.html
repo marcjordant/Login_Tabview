@@ -1,0 +1,5 @@
+<StackLayout>
+    <Label text="Login page"></Label>
+    <Button text="login (method call)" (tap)="doLogin()"></Button>
+    <Button text="login (nsRouterLink)" [nsRouterLink]="['/tabs-main']" clearHistory="true" pageTransition="none"></Button>
+</StackLayout>
